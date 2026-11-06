@@ -1,0 +1,59 @@
+body{
+    background-color:red;
+    background-image: url(background.jpg);
+}
+
+img.ukuran{
+    height: 200px;
+    width: 200px;
+}
+
+img.lengkungan{
+    border-radius: 20% 20% 20% 20%;
+    height: 300px;
+    width: 300 px;
+}
+
+img.border{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #e72727;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.kelompok{
+    height: 400px;
+    width: 400px;
+    background-color:aliceblue;
+    border-radius: 20%;
+    text-align: center;
+}
+
+div.kelompok img{
+    height: 370px;
+    width: 370px;
+    border-radius: 20%   
+}
+
+div.efek{
+    height: 400px;
+    width: 400px;
+    background-color:aquamarine;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div.efek img{
+    height: 370px;
+    width: 370px;
+    border-radius: 20%;
+}
+
+div.efek:hover{
+    height: 450px;
+    width: 450px;
+    background-color:lemonchiffon;
+    box-shadow: 15px 15px 10px darkblue;
+}
